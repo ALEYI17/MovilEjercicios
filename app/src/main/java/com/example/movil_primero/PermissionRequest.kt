@@ -7,5 +7,6 @@ class PermissionRequest {
         const val CONTACTOS = 789
         const val MULTIPLE_PERMISSIONS2 = 4567
         const val REQUEST_IMAGE_CAPTURE = 3
+        const val GALERIA = 7
     }
 }

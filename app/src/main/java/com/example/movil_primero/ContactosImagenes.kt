@@ -17,7 +17,10 @@ class ContactosImagenes : AppCompatActivity() {
         //setContentView(R.layout.activity_contactos_imagenes)
         binding = ActivityContactosImagenesBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
+        binding.imageButton3.setOnClickListener(){
+            var intentImagenes= Intent(baseContext,GaleriaActivity::class.java)
+            startActivity(intentImagenes)
+        }
         binding.imageButton2.setOnClickListener(){
             var intentContactos= Intent(baseContext,listaContactos::class.java)
             startActivity(intentContactos)
