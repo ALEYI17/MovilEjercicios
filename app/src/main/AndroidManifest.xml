@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Movil_primero"
+        tools:targetApi="31">
+        <activity
+            android:name=".CoordenadasTiempo"
+            android:exported="false" />
+        <activity
+            android:name=".JuegoAdivinanza"
+            android:exported="false" />
+        <activity
+            android:name=".listaContactos"
+            android:exported="false" />
+        <activity
+            android:name=".ContactosImagenes"
+            android:exported="false" />
+        <activity
+            android:name=".listaFibonacci"
+            android:exported="false" />
+        <activity
+            android:name=".calculadoraFibonacci"
+            android:exported="false" />
+        <activity
+            android:name=".coordenadas"
+            android:exported="false" />
+        <activity
+            android:name=".GpsCoordenadas"
+            android:exported="false" />
+        <activity
+            android:name=".PruebaBingind"
+            android:exported="false" />
+        <activity
+            android:name=".PantallaConstraint"
+            android:exported="false" />
+        <activity
+            android:name=".Webjeje"
+            android:exported="false" />
+        <activity
+            android:name=".PantallaRelative"
+            android:exported="false" />
+        <activity
+            android:name=".Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

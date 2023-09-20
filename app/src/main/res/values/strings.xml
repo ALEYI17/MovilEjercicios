@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">movil_primero</string>
+    <string name="numerodelunoaldiez">1 2 3 4 5 6 7 8 9 10</string>
+    <string name="abecedario">a b c d e f g h i j k l m n o p q r s t u v x y z</string>
+    <string name="pontificia_universidad_javeriana">Pontificia Universidad Javeriana</string>
+    <string name="NombreProfe">Pepito perez</string>
+</resources>
